@@ -23,7 +23,7 @@ Because I think compilers are cool? I think a lot of the complexity of writing a
 
 In tandem, though, I plan to document the design thoroughly, and aim for clarity and correctness over speed. The point of this project is not to make a compiler people will actually use; it's to make a compiler I can use to learn more about what compilers do (which will hopefully give me skills I can then turn to working on actual compilers like gcc or clang).
 
-Finally, I don't like the idea of some bright CS student taking a compilers course and not writing a compiler for a "real" language. COOL is actually quite an interesting project on its own, but (in my opinion) it doesn't necessarily translate directly into experience students can use to work on actual compilers (which I feel should be the goal of any compilers course). The use of a high-level language to write it will hopefully increase readability, and coupled with documentation (in code comments and external documents), I can see it making C a more practical language to teach and give as a final project in a compilers course.
+Finally, I don't like the idea of some bright CS student taking a compilers course and not writing a compiler for a "real" language. COOL is actually quite an interesting project on its own, but (in my opinion) it doesn't necessarily translate directly into experience students can use to work on actual compilers for actual languages (which I feel should be the goal of any compilers course). The use of a high-level language to write it will hopefully increase readability, and coupled with documentation (in code comments and external documents), I can see composter making C a more practical language to teach and give as a final project in a compilers course.
 
 But really, I just wanna write a compiler. I don't care if nobody else looks at it.
 
@@ -36,18 +36,16 @@ That being said, I probably haven't convinced you that this is actually going to
 # Goals
 
 1. To produce a C compiler which can compile the below program:
+  ```C
+  #include <stdio.h>
 
-```C
-#include <stdio.h>
+  int main(int argc, char ** argv){
+    printf("hello world!\n");
+  }
+  ```
+  (and hopefully many more).
 
-int main(int argc, char ** argv){
-  printf("hello world!\n");
-}
-```
-
-(and hopefully many more).
-
-2. To document the experience and provide a structured method for others to follow in my footsteps. This may come as a series of blog posts, or it may be held in a single change-log. Hopefully that daily log along with the other documentation produced will elucidate what design decisions were made, and why the compiler ended up in exactly this way.
+2. To document the experience and provide a structured method for others to follow in my footsteps. This may come as a series of blog posts, or it may be held in a single change-log. Hopefully that daily log along with the other documentation produced will elucidate what design decisions were made, and why the compiler ended up in exactly this way, and hopefully serve as a guide for other students making the same plunge.
 
 3. To have fun!
 
