@@ -5,6 +5,8 @@ composter
 
 A trashy C compiler for fun and profit. This'll mostly be done over the summer, this repo is just up to help me organize my thoughts about it.
 
+Status: pre-parsing stage.
+
 ## Which languages will it support?
 
 C, duh. It's a cool language and nontrivial to implement, without requiring wizard magic (looking at you, C++11). Everyone's done a lisp interpreter at this point.
