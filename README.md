@@ -17,7 +17,7 @@ I'm thinking coffeescript, I'm really feeling that right now. I want to use a hi
 
 ## What will it compile to?
 
-Linux 64-bit ELF binaries. Other languages later, but I'll consider this project complete when it can compile pretty much everything I throw at it (I'd love to have it compile Linux, gcc, and glibc for test purposes, but that may end up being too much of a hassle).
+Linux 64-bit ELF binaries. Probably other targets later, but I'll consider this project complete when it can compile pretty much everything I throw at it (I'd love to have it compile Linux, gcc, and glibc for test purposes, but that may end up being too much of a hassle).
 
 ## Why?
 
@@ -38,7 +38,7 @@ That being said, I probably haven't convinced you that this is actually going to
 ## Goals
 
 1. To produce a C compiler which can compile the below program:
-  ```C
+  ```c
   #include <stdio.h>
 
   int main(int argc, char ** argv){
