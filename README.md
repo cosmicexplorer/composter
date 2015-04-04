@@ -5,7 +5,7 @@ composter
 
 A trashy C compiler for fun and profit. This'll mostly be done over the summer, this repo is just up to help me organize my thoughts about it.
 
-Status: pre-parsing stage.
+Status: pre-processing stage. See [composter](https://github.com/cosmicexplorer/composter) for details.
 
 ## Which languages will it support?
 
